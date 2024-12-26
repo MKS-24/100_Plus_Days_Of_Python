@@ -109,7 +109,7 @@ Correct_Answer = ("B", "C", "C", "B", "D","A","C","A","A","B","C","B","C","C","B
 flag = False
 Total_Amount = [1000,2000,3000,5000,10000,20000,40000,80000,160000,320000,640000,1250000,2500000,5000000,10000000]
 print("Ye Raha Pehla Sawaal Aapki Aap Ki Computer Screen Per..\n")
-i = 4
+i = 0
 while i < len(question):
     print(question[i])
     print(answer[i])
