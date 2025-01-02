@@ -5,11 +5,13 @@ name="Muhammad Khuzaima Siddiqui!!!"
 job="!!!Employee++"
 hobby = "cricket"
 name2 = "MUHAMMAD KHUZAIMA SIDDIQUI"
+name3 = "   space    \n"
 print(name)
 print(len(name))
 print(name.upper())
 print(name2.lower())
 print(job.rstrip("+")) # only end me joo character aata hai unko remove kerta hai
+print(name3.strip()) # The .strip() method in Python removes leading (spaces at the start) and trailing (spaces at the end) whitespace characters from a string. It’s often used to clean up strings by removing unnecessary spaces or newline characters (\n, \r) at the beginning or end of a string.
 print(name.replace("Khuzaima","Hamza"))
 print(name.split(" "))  # bracket me wo likhte hai jaha se """"""""list"""""""" ke attribute ko break kerna hai
 print(hobby.capitalize()) # only firstletter ko capital kerta hai
