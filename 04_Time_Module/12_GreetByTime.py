@@ -1,13 +1,15 @@
 import time
-waqt = time.strftime("%H:%M:%S")
-print("time howa hai : ",waqt)
+waqt = time.strftime("%h:%m:%Y:%H:%M:%S")
+print("Time howa hai : ",waqt)
 hour = int(time.strftime("%H"))
-if(hour < 12 and hour > 6):
+if(6<hour<12):
     print("Good Morning!!")
-elif(hour >= 12 and hour < 5):
+elif(hour >= 12 and hour < 17):
+    print("Good After Noon!!")
+elif(hour >= 17 and hour < 20):
     print("Good Evening!!")
 else:
-    if(hour < 12):
+    if(hour < 24):
         print("Good Night")
     else:
         print("Why you don't sleep?")
