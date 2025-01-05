@@ -22,7 +22,14 @@ print(name.endswith("i!!!")) # check kerta ke ke string ke end me give character
 print(name.endswith("K",2,10)) # 2 se 10 tak ke index ki string ke end me 'K' hai
 print(name.isalpha())
 print(hobby.isalpha())
+dekhu = "my name is khuzaima siddiqui"
+print(dekhu.title())
 print(name.find("K")) # ye first occurance yani given sting jis string e find kerni hai us ka index return kertta hai
+print(hobby.rjust(15,"*"))
+print(hobby.ljust(15,"*"))
+print(hobby.encode("utf-8"))
+print("-".join(["hello", "world"]))
+
 # imp=>
 # print(name.index("k"))#  ye error return kare ga
 # find and index same function hota hai lkn difference ye hota hai ke jab find wali string nh milti tu find function -1 return kerta hai
