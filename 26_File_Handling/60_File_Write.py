@@ -1,0 +1,6 @@
+v = open('25_File_Handling/myfile2.txt','w')
+# v.write("Hello World\n")
+v.write("Hello karachi,How are you?")
+f = open('25_File_Handling/myfile2.txt','r')
+on = f.read()
+print(on)
