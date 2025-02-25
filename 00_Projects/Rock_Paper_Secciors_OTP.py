@@ -1,25 +1,3 @@
-# import math
-# import random
-# import smtplib
-
-# digits = '0123456789'
-# OTP = ""
-# for i in range(5):
-#     OTP += digits[math.floor(random.random()*10)]
-# otp = OTP + 'is you One Time Password (OTP)!'
-# send = smtplib.SMTP('smtp.gmail.com',587)
-# send.starttls()
-# send.login("programify.official@gmail.com" , '')
-# useremail = input("Enter your Email : ")
-# send.sendmail("kuch bhi",useremail,otp)
-# check = input("Enter Your OTP : ")
-# if check == OTP:
-#     print("Verified")
-# else:
-#     print("Check Again !")
-#     wbmdjtefwxktwbae
-
-
 import math
 import random
 import smtplib
