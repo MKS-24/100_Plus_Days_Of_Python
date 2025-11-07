@@ -10,7 +10,7 @@ df = pd.read_excel('E:/3_Python/100_DaysPython/0Emial/Excel.xlsx', engine="openp
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 SENDER_EMAIL = "muhammadkhuzaimasiddiqui@gmail.com"  # Apna email dalain
-SENDER_PASSWORD = "mwjyvwddmxofhzdu_gmail"  # Gmail ka app password
+SENDER_PASSWORD = "xxxxxxxxxxxxxx"  # Gmail ka app password
 
 
 # Email Setup
@@ -45,3 +45,4 @@ for index, row in df.iterrows():
         print(f"Email sent to {receiver_email} with invoice {file_name}")
     except Exception as e:
         print(f"Error sending email to {receiver_email}: {e}")
+
